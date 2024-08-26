@@ -4,7 +4,11 @@
 using namespace std;
 
 void solve() {
-    
+    int n;
+    cin >> n;
+    string input = to_string(n);
+    int ans = (input[0] - '0') + (input[1] - '0');
+    cout << ans << endl;
 }
 
 int main() {

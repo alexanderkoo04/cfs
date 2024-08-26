@@ -4,7 +4,16 @@
 using namespace std;
 
 void solve() {
-    
+    int n, k, m;
+    cin >> n >> m >> k;
+    // deque<int> dq;
+    for (int i = n; i > m; i--) {
+        cout << i << " ";
+    }
+    for (int i = 1; i <= m; i++) {
+        cout << i << " ";
+    }
+    cout << endl;
 }
 
 int main() {

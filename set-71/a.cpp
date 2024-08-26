@@ -4,7 +4,16 @@
 using namespace std;
 
 void solve() {
+    string input;
+    cin >> input;
     
+    if (input.size() > 10) {
+        cout << input[0] << input.size() - 2 << input[input.size() - 1];
+    }
+    else {
+        cout << input;
+    }
+    cout << endl;
 }
 
 int main() {
